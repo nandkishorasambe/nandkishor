@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dcd9ec;
+}
+
+.container {
+    max-width: 1700px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header h2 {
+    color: #333;
+    font-size: 24px;
+    margin: 10px 0 0 0;
+}
+
+.google-logo {
+    width: 100px;
+}
+
+.info {
+    padding: 20px;
+}
+
+.info p {
+    color: #333;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.info ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.info ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.info ul li:last-child {
+    border-bottom: none;
+}
+
+.enroll-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.enroll-btn {
+    background-color: #3050dd;
+    color: #fff;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.enroll-btn:hover {
+    background-color: #dc341d;
+}
+
+.rating {
+    font-size: 18px;
+    color: #ffd700;
+}
+
+.sponsored-by, .enrolled {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+}
+
+.top-instructor {
+    background-color: #e8f0fe;
+    color: #1a73e8;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-size: 12px;
+    margin-left: 5px;
+}

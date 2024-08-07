@@ -1,0 +1,128 @@
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container-fluid {
+    height: calc(100% - 56px); /* Adjusting for navbar height */
+}
+
+.navbar {
+    width: 100%;
+    background-color: #fb4820;
+}
+
+.sidebar {
+    height: 100%; /* Make sidebar take full height */
+}
+
+.content-area {
+    height: 100%; /* Make content area take full height */
+    overflow-y: auto; /* Enable vertical scrolling if content overflows */
+}
+
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+
+
+/* ===============================category========================================*/
+.category-list {
+    list-style: none;
+    padding-left: 20px;
+}
+
+.category-list li {
+    margin-bottom: 10px;
+}
+
+/* ===============================card image========================================*/
+
+.card img {
+    height: 200px;
+    object-fit: cover;
+}
+/* =============================Program Title And duration=======================================*/
+
+.program-title {
+    font-size: 0.9rem;
+    font-weight: bold;
+}
+
+.program-duration {
+    font-size: 0.8rem;
+    color: grey;
+}
+
+
+/* ===============================card body========================================*/
+.card-body {
+    padding: 10px;
+    align-content: normal;
+}
+
+/* ===========================Primary Burron========================================*/
+.btn-primary {
+    background-color: #fb4820;
+    border-color: #ef5519;
+}
+
+/* ================Side Bar=======================================*/
+.sidebar {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.sidebar h4 {
+    font-weight: bold;
+    font-size: 1.1rem;
+
+}
+/* ==========================Side Bar List Group========================================*/
+
+.sidebar .list-group-item {
+    border: none;
+    padding: 10px 0;
+    font-size: 1rem;
+    display: flex;
+    align-items: center;
+}
+
+.sidebar .list-group-item i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+
+.sidebar .list-group-item a {
+    text-decoration: none;
+    color:#090909;
+    flex-grow: 1;
+}
+
+.sidebar .list-group-item a:hover {
+    text-decoration: underline;
+}
+
+/* ==========================Side Bar Header=======================================*/
+
+.sidebar .header {
+    display: flex;
+    align-items: center;
+    background-color: #f70707e1;
+    color: rgba(15, 15, 15, 0.248);
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 5px;
+}
+
+.sidebar .header i {
+    font-size: 1.2rem;
+    margin-right: 10px;
+}
+.container my-6{
+    margin-left: 80;
+}
